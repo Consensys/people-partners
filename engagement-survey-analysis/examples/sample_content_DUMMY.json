@@ -1,0 +1,903 @@
+{
+ "meta": {
+  "team": "Sample Team",
+  "deck_name": "DESIGN PREVIEW  |  DUMMY DATA",
+  "survey_label": "October 2026",
+  "byline": "DESIGN PREVIEW. All numbers and text are invented.",
+  "n": 42,
+  "invited": 50
+ },
+ "overview": {
+  "title": "Engagement overview",
+  "intro": "[DUMMY] Sample Team, n=42 of 50 invited",
+  "team_label": "Sample Team  n=42",
+  "favorable": 88,
+  "neutral": 8,
+  "unfavorable": 4,
+  "blocks": [
+   {
+    "headline": "84% participation",
+    "comparison": "42 of 50 invited (+6 vs last survey, +9 vs company)",
+    "body": "[DUMMY TEXT] This paragraph is placeholder analysis of realistic length so layouts can be tested for overflow. It names the stat, compares it with last survey and the company, and explains what sits underneath the number rather than repeating it. Real content comes from truth.json and the analysis step."
+   },
+   {
+    "headline": "88% engagement",
+    "comparison": "(−2 vs last survey, +7 vs company)",
+    "body": "[DUMMY TEXT] This paragraph is placeholder analysis of realistic length so layouts can be tested for overflow. It names the stat, compares it with last survey and the company, and explains what sits underneath the number rather than repeating it. Real content comes from truth.json and the analysis step."
+   },
+   {
+    "headline": "86% would recommend",
+    "comparison": "(−2 vs last survey, +7 vs company)",
+    "body": "[DUMMY TEXT] This paragraph is placeholder analysis of realistic length so layouts can be tested for overflow. It names the stat, compares it with last survey and the company, and explains what sits underneath the number rather than repeating it. Real content comes from truth.json and the analysis step."
+   },
+   {
+    "headline": "64% not looking elsewhere",
+    "comparison": "(−7 vs last survey, +6 vs company)",
+    "body": "[DUMMY TEXT] This paragraph is placeholder analysis of realistic length so layouts can be tested for overflow. It names the stat, compares it with last survey and the company, and explains what sits underneath the number rather than repeating it. Real content comes from truth.json and the analysis step."
+   }
+  ],
+  "caveat": "Dummy caveat. With n<10 one response moves a score by 10+ points. Read directionally."
+ },
+ "drivers": [
+  {
+   "title": "Key drivers: Oct 2026",
+   "intro": "Driver analysis shows which questions move most with overall engagement. Higher correlation means a bigger lever.",
+   "prev_label": "Mar 2026",
+   "items": [
+    {
+     "question": "I would recommend this company as a great place to work",
+     "score": 86,
+     "delta_prev": -2,
+     "delta_company": 7,
+     "correlation": "Extreme correlation",
+     "below_ideal": false
+    },
+    {
+     "question": "I see myself still working here in two years",
+     "score": 81,
+     "delta_prev": -2,
+     "delta_company": 9,
+     "correlation": "Very high correlation",
+     "below_ideal": false
+    },
+    {
+     "question": "I rarely think about looking for a job at another company",
+     "score": 64,
+     "delta_prev": -7,
+     "delta_company": 6,
+     "correlation": "Very high correlation",
+     "below_ideal": true
+    },
+    {
+     "question": "I am proud to work for this company",
+     "score": 89,
+     "delta_prev": -1,
+     "delta_company": 9,
+     "correlation": "High correlation",
+     "below_ideal": false
+    },
+    {
+     "question": "My manager cares about my wellbeing",
+     "score": 93,
+     "delta_prev": -1,
+     "delta_company": 9,
+     "correlation": "High correlation",
+     "below_ideal": false
+    }
+   ]
+  },
+  {
+   "title": "Key drivers: Mar 2026",
+   "intro": "Same analysis, previous survey.",
+   "prev_label": "Oct 2025",
+   "items": [
+    {
+     "question": "I would recommend this company as a great place to work",
+     "score": 88,
+     "delta_prev": -2,
+     "delta_company": 7,
+     "correlation": "Extreme correlation",
+     "below_ideal": false
+    },
+    {
+     "question": "I see myself still working here in two years",
+     "score": 83,
+     "delta_prev": -2,
+     "delta_company": 9,
+     "correlation": "Very high correlation",
+     "below_ideal": false
+    },
+    {
+     "question": "I rarely think about looking for a job at another company",
+     "score": 66,
+     "delta_prev": -7,
+     "delta_company": 6,
+     "correlation": "Very high correlation",
+     "below_ideal": true
+    },
+    {
+     "question": "I am proud to work for this company",
+     "score": 91,
+     "delta_prev": -1,
+     "delta_company": 9,
+     "correlation": "High correlation",
+     "below_ideal": false
+    },
+    {
+     "question": "My manager cares about my wellbeing",
+     "score": 95,
+     "delta_prev": -1,
+     "delta_company": 9,
+     "correlation": "High correlation",
+     "below_ideal": false
+    }
+   ]
+  },
+  {
+   "title": "Key drivers: Oct 2025",
+   "intro": "Same analysis, the survey before that.",
+   "prev_label": "Mar 2025",
+   "items": [
+    {
+     "question": "I would recommend this company as a great place to work",
+     "score": 83,
+     "delta_prev": -2,
+     "delta_company": 7,
+     "correlation": "Extreme correlation",
+     "below_ideal": false
+    },
+    {
+     "question": "I see myself still working here in two years",
+     "score": 78,
+     "delta_prev": -2,
+     "delta_company": 9,
+     "correlation": "Very high correlation",
+     "below_ideal": true
+    },
+    {
+     "question": "I rarely think about looking for a job at another company",
+     "score": 61,
+     "delta_prev": -7,
+     "delta_company": 6,
+     "correlation": "Very high correlation",
+     "below_ideal": true
+    },
+    {
+     "question": "I am proud to work for this company",
+     "score": 86,
+     "delta_prev": -1,
+     "delta_company": 9,
+     "correlation": "High correlation",
+     "below_ideal": false
+    },
+    {
+     "question": "My manager cares about my wellbeing",
+     "score": 90,
+     "delta_prev": -1,
+     "delta_company": 9,
+     "correlation": "High correlation",
+     "below_ideal": false
+    }
+   ]
+  }
+ ],
+ "factors": {
+  "title": "Top line summary",
+  "rows": [
+   {
+    "factor": "Engagement",
+    "score": 88,
+    "vs_company": 7,
+    "vs_last": -2
+   },
+   {
+    "factor": "Management",
+    "score": 91,
+    "vs_company": 9,
+    "vs_last": -1
+   },
+   {
+    "factor": "Teamwork & Ownership",
+    "score": 90,
+    "vs_company": 7,
+    "vs_last": 1
+   },
+   {
+    "factor": "Belonging",
+    "score": 86,
+    "vs_company": 6,
+    "vs_last": -2
+   },
+   {
+    "factor": "Enablement",
+    "score": 84,
+    "vs_company": 7,
+    "vs_last": 1
+   },
+   {
+    "factor": "Innovation",
+    "score": 82,
+    "vs_company": 8,
+    "vs_last": -4
+   },
+   {
+    "factor": "Collaboration & Communication",
+    "score": 79,
+    "vs_company": 8,
+    "vs_last": -1
+   },
+   {
+    "factor": "Service & Quality Focus",
+    "score": 78,
+    "vs_company": 2,
+    "vs_last": -6
+   },
+   {
+    "factor": "Learning & Development",
+    "score": 77,
+    "vs_company": 5,
+    "vs_last": 2
+   },
+   {
+    "factor": "Feedback & Recognition",
+    "score": 75,
+    "vs_company": 5,
+    "vs_last": 2
+   },
+   {
+    "factor": "Alignment & Involvement",
+    "score": 73,
+    "vs_company": 5,
+    "vs_last": -6
+   },
+   {
+    "factor": "Work & Life Blend",
+    "score": 72,
+    "vs_company": 3,
+    "vs_last": -4
+   },
+   {
+    "factor": "Leadership",
+    "score": 68,
+    "vs_company": 2,
+    "vs_last": -6
+   },
+   {
+    "factor": "Social Responsibility",
+    "score": 67,
+    "vs_company": -3,
+    "vs_last": -2
+   },
+   {
+    "factor": "Company Confidence",
+    "score": 64,
+    "vs_company": 1,
+    "vs_last": -6
+   },
+   {
+    "factor": "Action",
+    "score": 58,
+    "vs_company": -3,
+    "vs_last": -8
+   }
+  ],
+  "takeaway": "[DUMMY] Takeaway line: strong on people factors, weaker on action and confidence.",
+  "caveat": "n=42. Dummy data."
+ },
+ "benchmark": {
+  "title": "Industry benchmark comparison",
+  "bench_label": "New Tech benchmark",
+  "rows": [
+   {
+    "factor": "Engagement",
+    "score": 88,
+    "bench": 78
+   },
+   {
+    "factor": "Management",
+    "score": 91,
+    "bench": 79
+   },
+   {
+    "factor": "Teamwork & Ownership",
+    "score": 90,
+    "bench": 80
+   },
+   {
+    "factor": "Belonging",
+    "score": 86,
+    "bench": 77
+   },
+   {
+    "factor": "Enablement",
+    "score": 84,
+    "bench": 74
+   },
+   {
+    "factor": "Innovation",
+    "score": 82,
+    "bench": 71
+   },
+   {
+    "factor": "Collaboration & Communication",
+    "score": 79,
+    "bench": 68
+   },
+   {
+    "factor": "Service & Quality Focus",
+    "score": 78,
+    "bench": 73
+   },
+   {
+    "factor": "Learning & Development",
+    "score": 77,
+    "bench": 69
+   },
+   {
+    "factor": "Feedback & Recognition",
+    "score": 75,
+    "bench": 67
+   },
+   {
+    "factor": "Alignment & Involvement",
+    "score": 73,
+    "bench": 65
+   },
+   {
+    "factor": "Work & Life Blend",
+    "score": 72,
+    "bench": 66
+   },
+   {
+    "factor": "Leadership",
+    "score": 68,
+    "bench": 63
+   },
+   {
+    "factor": "Social Responsibility",
+    "score": 67,
+    "bench": 67
+   },
+   {
+    "factor": "Company Confidence",
+    "score": 64,
+    "bench": 60
+   },
+   {
+    "factor": "Action",
+    "score": 58,
+    "bench": 58
+   }
+  ],
+  "narrative": "[DUMMY] Narrative summary beside the benchmark table. Above benchmark on most people factors, below on action and company confidence. Interpret with care: benchmark cohorts differ in size and maturity."
+ },
+ "strengths": {
+  "intro": "Key areas we are excelling in",
+  "rows": [
+   {
+    "question": "My manager treats me with respect",
+    "score": 96,
+    "correlation": "Extreme correlation with engagement"
+   },
+   {
+    "question": "I trust my teammates to deliver",
+    "score": 95,
+    "correlation": "Very high correlation with engagement"
+   },
+   {
+    "question": "I feel comfortable being myself at work",
+    "score": 94,
+    "correlation": "High correlation with engagement"
+   },
+   {
+    "question": "My team has a culture of ownership",
+    "score": 93,
+    "correlation": "Feeds directly into engagement metric"
+   },
+   {
+    "question": "I know what is expected of me",
+    "score": 92,
+    "correlation": "Extreme correlation with engagement"
+   },
+   {
+    "question": "I feel safe to speak up in my team",
+    "score": 91,
+    "correlation": "Very high correlation with engagement"
+   }
+  ]
+ },
+ "opportunities": {
+  "intro": "Key areas we need to keep an eye on",
+  "rows": [
+   {
+    "question": "Leaders act on survey feedback here",
+    "score": 51,
+    "correlation": "Extreme correlation with engagement"
+   },
+   {
+    "question": "Decisions are made quickly enough",
+    "score": 55,
+    "correlation": "Very high correlation with engagement"
+   },
+   {
+    "question": "I understand how decisions get made",
+    "score": 58,
+    "correlation": "High correlation with engagement"
+   },
+   {
+    "question": "Workload is manageable most of the time",
+    "score": 60,
+    "correlation": "Feeds directly into engagement metric"
+   },
+   {
+    "question": "I have confidence in the leadership",
+    "score": 63,
+    "correlation": "Extreme correlation with engagement"
+   },
+   {
+    "question": "My contributions are recognised",
+    "score": 66,
+    "correlation": "Very high correlation with engagement"
+   }
+  ]
+ },
+ "vs_company": {
+  "top": [
+   {
+    "question": "My team collaborates well with others",
+    "score": 88,
+    "delta": 22,
+    "caption": "vs rest of business (66%)"
+   },
+   {
+    "question": "I get the tools I need to do my job",
+    "score": 86,
+    "delta": 18,
+    "caption": "vs rest of business (68%)"
+   },
+   {
+    "question": "My team is open to new ideas",
+    "score": 90,
+    "delta": 14,
+    "caption": "vs rest of business (76%)"
+   },
+   {
+    "question": "Work is shared fairly",
+    "score": 84,
+    "delta": 13,
+    "caption": "vs rest of business (71%)"
+   },
+   {
+    "question": "I can disconnect after hours",
+    "score": 79,
+    "delta": 12,
+    "caption": "vs rest of business (67%)"
+   }
+  ],
+  "low": [
+   {
+    "question": "Leaders act on survey feedback here",
+    "score": 51,
+    "delta": -11,
+    "caption": "vs rest of business (62%)"
+   },
+   {
+    "question": "I understand how decisions get made",
+    "score": 58,
+    "delta": -8,
+    "caption": "vs rest of business (66%)"
+   },
+   {
+    "question": "Company is financially healthy",
+    "score": 57,
+    "delta": -7,
+    "caption": "vs rest of business (64%)"
+   },
+   {
+    "question": "I am paid fairly for my work",
+    "score": 61,
+    "delta": -5,
+    "caption": "vs rest of business (66%)"
+   },
+   {
+    "question": "Priorities stay stable long enough",
+    "score": 54,
+    "delta": -4,
+    "caption": "vs rest of business (58%)"
+   }
+  ]
+ },
+ "vs_last": {
+  "up": [
+   {
+    "question": "Changes are communicated well",
+    "score": 72,
+    "delta": 12,
+    "caption": "vs last survey (60%)"
+   },
+   {
+    "question": "I can see a future for myself here",
+    "score": 78,
+    "delta": 9,
+    "caption": "vs last survey (69%)"
+   },
+   {
+    "question": "My team is open to new ideas",
+    "score": 90,
+    "delta": 7,
+    "caption": "vs last survey (83%)"
+   },
+   {
+    "question": "I get useful feedback",
+    "score": 80,
+    "delta": 6,
+    "caption": "vs last survey (74%)"
+   },
+   {
+    "question": "Workload is manageable most of the time",
+    "score": 60,
+    "delta": 5,
+    "caption": "vs last survey (55%)"
+   }
+  ],
+  "down": [
+   {
+    "question": "Leaders act on survey feedback here",
+    "score": 51,
+    "delta": -14,
+    "caption": "vs last survey (65%)"
+   },
+   {
+    "question": "I rarely think about looking for a job elsewhere",
+    "score": 64,
+    "delta": -7,
+    "caption": "vs last survey (71%)"
+   },
+   {
+    "question": "Company is financially healthy",
+    "score": 57,
+    "delta": -6,
+    "caption": "vs last survey (63%)"
+   },
+   {
+    "question": "Priorities stay stable long enough",
+    "score": 54,
+    "delta": -6,
+    "caption": "vs last survey (60%)"
+   },
+   {
+    "question": "I understand how decisions get made",
+    "score": 58,
+    "delta": -5,
+    "caption": "vs last survey (63%)"
+   }
+  ]
+ },
+ "company_actions": {
+  "reference": {
+   "title": "What the company focused on",
+   "intro": "Two company wide priorities since the last survey.",
+   "cols": [
+    {
+     "head": "Confidence in Leadership",
+     "body": [
+      "Question: I have confidence in the leadership.",
+      "Team score: 63% (−2 vs last survey, −1 vs company)",
+      "[DUMMY] Link to the Engagement Town Hall goes here."
+     ]
+    },
+    {
+     "head": "Employee Recognition",
+     "body": [
+      "Question: My contributions are recognised.",
+      "Team score: 66% (+3 vs last survey, −4 vs company)",
+      "[DUMMY] Link to the Engagement Town Hall goes here."
+     ]
+    }
+   ]
+  },
+  "detail": {
+   "title": "What the company did",
+   "intro": "Actions taken and where the scores moved.",
+   "cols": [
+    {
+     "head": "Confidence in Leadership",
+     "body": [
+      "[DUMMY TEXT] This paragraph is placeholder analysis of realistic length so layouts can be tested for overflow. It names the stat, compares it with last survey and the company, and explains what sits underneath the number rather than repeating it. Real content comes from truth.json and the analysis step.",
+      "[DUMMY TEXT] This paragraph is placeholder analysis of realistic length so layouts can be tested for overflow. It names the stat, compares it with last survey and the company, and explains what sits underneath the number rather than repeating it. Real content comes from truth.json and the analysis step."
+     ]
+    },
+    {
+     "head": "Employee Recognition",
+     "body": [
+      "[DUMMY TEXT] This paragraph is placeholder analysis of realistic length so layouts can be tested for overflow. It names the stat, compares it with last survey and the company, and explains what sits underneath the number rather than repeating it. Real content comes from truth.json and the analysis step.",
+      "[DUMMY TEXT] This paragraph is placeholder analysis of realistic length so layouts can be tested for overflow. It names the stat, compares it with last survey and the company, and explains what sits underneath the number rather than repeating it. Real content comes from truth.json and the analysis step."
+     ]
+    }
+   ]
+  }
+ },
+ "team_priorities": {
+  "narrative": {
+   "title": "What did we focus on as a team?",
+   "intro": "Three priorities were set last cycle. Here is what moved and what did not.",
+   "cols": [
+    {
+     "head": "Alignment & Involvement",
+     "body": [
+      "73% (−6 vs last survey)",
+      "[DUMMY TEXT] This paragraph is placeholder analysis of realistic length so layouts can be tested for overflow. It names the stat, compares it with last survey and the company, and explains what sits underneath the number rather than repeating it. Real content comes from truth.json and the analysis step."
+     ]
+    },
+    {
+     "head": "Feedback & Recognition",
+     "body": [
+      "75% (+2 vs last survey)",
+      "[DUMMY TEXT] This paragraph is placeholder analysis of realistic length so layouts can be tested for overflow. It names the stat, compares it with last survey and the company, and explains what sits underneath the number rather than repeating it. Real content comes from truth.json and the analysis step."
+     ]
+    },
+    {
+     "head": "Work & Life Blend",
+     "body": [
+      "72% (−4 vs last survey)",
+      "[DUMMY TEXT] This paragraph is placeholder analysis of realistic length so layouts can be tested for overflow. It names the stat, compares it with last survey and the company, and explains what sits underneath the number rather than repeating it. Real content comes from truth.json and the analysis step."
+     ]
+    }
+   ]
+  },
+  "progress": {
+   "title": "Progress tracking",
+   "sections": [
+    {
+     "header": "Alignment & Involvement",
+     "score": "73%",
+     "delta": "−6",
+     "assessment": "→ No movement",
+     "rows": [
+      {
+       "question": "I understand how decisions get made",
+       "score": 58,
+       "delta": -5,
+       "assessment": "→ Declined"
+      },
+      {
+       "question": "Changes are communicated well",
+       "score": 72,
+       "delta": 12,
+       "assessment": "→ Clear improvement"
+      },
+      {
+       "question": "I know the company strategy",
+       "score": 80,
+       "delta": 1,
+       "assessment": "→ No movement"
+      }
+     ]
+    },
+    {
+     "header": "Feedback & Recognition",
+     "score": "75%",
+     "delta": "+2",
+     "assessment": "→ Modest improvement",
+     "rows": [
+      {
+       "question": "My contributions are recognised",
+       "score": 66,
+       "delta": 3,
+       "assessment": "→ Modest improvement"
+      },
+      {
+       "question": "I get useful feedback",
+       "score": 80,
+       "delta": 6,
+       "assessment": "→ Clear improvement"
+      }
+     ]
+    },
+    {
+     "header": "Work & Life Blend",
+     "score": "72%",
+     "delta": "−4",
+     "assessment": "→ Declined",
+     "rows": [
+      {
+       "question": "Workload is manageable most of the time",
+       "score": 60,
+       "delta": 5,
+       "assessment": "→ Modest improvement"
+      },
+      {
+       "question": "I can disconnect after hours",
+       "score": 79,
+       "delta": -3,
+       "assessment": "→ Declined"
+      },
+      {
+       "question": "My schedule is flexible enough",
+       "score": 81,
+       "delta": -2,
+       "assessment": "→ No movement"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "qualitative": {
+  "prior_intro": "Qualitative data from the Mar 2026 survey",
+  "current_intro": "Current survey: themes and the scores they connect to",
+  "prior_themes": [
+   {
+    "name": "Priorities shift too often",
+    "desc": "[DUMMY TEXT] This paragraph is placeholder analysis of realistic length so layouts can be tested for overflow. It names the stat, compares it with last survey and the company, and explains what sits underneath the number rather than repeating it. Real content comes from truth.json and the analysis step."
+   },
+   {
+    "name": "Recognition is uneven",
+    "desc": "[DUMMY TEXT] This paragraph is placeholder analysis of realistic length so layouts can be tested for overflow. It names the stat, compares it with last survey and the company, and explains what sits underneath the number rather than repeating it. Real content comes from truth.json and the analysis step."
+   },
+   {
+    "name": "Great team, thin resourcing",
+    "desc": "[DUMMY TEXT] This paragraph is placeholder analysis of realistic length so layouts can be tested for overflow. It names the stat, compares it with last survey and the company, and explains what sits underneath the number rather than repeating it. Real content comes from truth.json and the analysis step."
+   }
+  ],
+  "current_themes": [
+   {
+    "name": "Decision making feels opaque (High)",
+    "desc": "[DUMMY TEXT] This paragraph is placeholder analysis of realistic length so layouts can be tested for overflow. It names the stat, compares it with last survey and the company, and explains what sits underneath the number rather than repeating it. Real content comes from truth.json and the analysis step."
+   },
+   {
+    "name": "Workload pressure persists (High)",
+    "desc": "[DUMMY TEXT] This paragraph is placeholder analysis of realistic length so layouts can be tested for overflow. It names the stat, compares it with last survey and the company, and explains what sits underneath the number rather than repeating it. Real content comes from truth.json and the analysis step."
+   },
+   {
+    "name": "Strong peer support (Positive)",
+    "desc": "[DUMMY TEXT] This paragraph is placeholder analysis of realistic length so layouts can be tested for overflow. It names the stat, compares it with last survey and the company, and explains what sits underneath the number rather than repeating it. Real content comes from truth.json and the analysis step."
+   },
+   {
+    "name": "Career paths are unclear (Moderate)",
+    "desc": "[DUMMY TEXT] This paragraph is placeholder analysis of realistic length so layouts can be tested for overflow. It names the stat, compares it with last survey and the company, and explains what sits underneath the number rather than repeating it. Real content comes from truth.json and the analysis step."
+   },
+   {
+    "name": "Tools and AI adoption (Emerging)",
+    "desc": "[DUMMY TEXT] This paragraph is placeholder analysis of realistic length so layouts can be tested for overflow. It names the stat, compares it with last survey and the company, and explains what sits underneath the number rather than repeating it. Real content comes from truth.json and the analysis step."
+   },
+   {
+    "name": "Pay and market confidence (Moderate)",
+    "desc": "[DUMMY TEXT] This paragraph is placeholder analysis of realistic length so layouts can be tested for overflow. It names the stat, compares it with last survey and the company, and explains what sits underneath the number rather than repeating it. Real content comes from truth.json and the analysis step."
+   }
+  ],
+  "sentiment": {
+   "title": "Comments: sentiment analysis",
+   "eyebrow": "Qualitative data",
+   "negative": 14,
+   "neutral": 9,
+   "positive": 19,
+   "total": 42,
+   "body": [
+    {
+     "runs": [
+      [
+       "Overall tone: ",
+       {
+        "font": "Inter SemiBold"
+       }
+      ],
+      [
+       "[DUMMY] constructive but frustrated.",
+       {}
+      ]
+     ],
+     "after": 6
+    },
+    {
+     "runs": [
+      [
+       "Actionable comments",
+       {
+        "font": "Inter SemiBold"
+       }
+      ]
+     ],
+     "after": 2
+    },
+    {
+     "runs": [
+      [
+       "Decision making and communication (9)",
+       {}
+      ]
+     ],
+     "bullet": true
+    },
+    {
+     "runs": [
+      [
+       "Workload and resourcing (7)",
+       {}
+      ]
+     ],
+     "bullet": true
+    },
+    {
+     "runs": [
+      [
+       "Career development (4)",
+       {}
+      ]
+     ],
+     "bullet": true
+    }
+   ]
+  }
+ },
+ "recommendations": {
+  "priorities": [
+   {
+    "eyebrow": "Recommended priorities  |  1",
+    "name": "Make decisions visible",
+    "citation": "Alignment & Involvement 73% (−6 vs last survey, +5 vs company). Very high correlation.",
+    "analysis": [
+     "[DUMMY TEXT] This paragraph is placeholder analysis of realistic length so layouts can be tested for overflow. It names the stat, compares it with last survey and the company, and explains what sits underneath the number rather than repeating it. Real content comes from truth.json and the analysis step.",
+     "[DUMMY TEXT] This paragraph is placeholder analysis of realistic length so layouts can be tested for overflow. It names the stat, compares it with last survey and the company, and explains what sits underneath the number rather than repeating it. Real content comes from truth.json and the analysis step."
+    ],
+    "goal": "[DUMMY] By the next survey, 70%+ say they understand how decisions get made.",
+    "actions": [
+     "Publish a monthly decision log. Owner: CMO. By end of Nov.",
+     "Run a skip level Q&A each quarter. Owner: Marketing leads.",
+     "Add a 'what changed and why' note to every all hands. Owner: Chief of Staff."
+    ]
+   },
+   {
+    "eyebrow": "Recommended priorities  |  2",
+    "name": "Protect the workload",
+    "citation": "Work & Life Blend 72% (−4 vs last survey, +3 vs company). High correlation.",
+    "analysis": [
+     "[DUMMY TEXT] This paragraph is placeholder analysis of realistic length so layouts can be tested for overflow. It names the stat, compares it with last survey and the company, and explains what sits underneath the number rather than repeating it. Real content comes from truth.json and the analysis step.",
+     "[DUMMY TEXT] This paragraph is placeholder analysis of realistic length so layouts can be tested for overflow. It names the stat, compares it with last survey and the company, and explains what sits underneath the number rather than repeating it. Real content comes from truth.json and the analysis step."
+    ],
+    "goal": "[DUMMY] No team carries more than two P0 priorities at once.",
+    "actions": [
+     "Agree a stop list with each lead. Owner: CMO. By mid Dec.",
+     "Review capacity monthly. Owner: People Partner.",
+     "Track disconnect time as a leading indicator. Owner: Marketing Ops."
+    ]
+   }
+  ],
+  "why": {
+   "title": "Why these 2?",
+   "intro": "[DUMMY] We chose on three tests: correlation with engagement, size of the gap, and whether the team can move it without waiting for the wider company.",
+   "bullets": [
+    {
+     "lead": "Make decisions visible.",
+     "text": "Highest correlation and fully in our control."
+    },
+    {
+     "lead": "Protect the workload.",
+     "text": "Largest retention risk signal, and it compounds everything else."
+    }
+   ],
+   "closing": "Sequence: decisions first, because it unlocks trust. Workload second, because it needs the stop list."
+  }
+ },
+ "next_steps": {
+  "title": "Recommended next steps",
+  "steps": [
+   {
+    "timing": "[Now]",
+    "action": "Share results with the Marketing leadership team and agree the two priorities."
+   },
+   {
+    "timing": "[Next All Hands]",
+    "action": "Present the headline results and the two priorities to the whole team."
+   },
+   {
+    "timing": "[By end of Q1]",
+    "action": "Run a pulse check on the two priority areas."
+   }
+  ]
+ },
+ "notes": {
+  "overview": "Speaker notes: talking points and deflection counters go here.",
+  "why_these": "Why not X? Counter goes here."
+ }
+}
